@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jakub\\Desktop\\C#\\CsharpProjects\\FirstProject\\FirstProject.csproj": {}
+    "c:\\Users\\jakub\\Desktop\\C#\\CsharpProjects\\FirstProject\\FirstProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jakub\\Desktop\\C#\\CsharpProjects\\FirstProject\\FirstProject.csproj": {
+    "c:\\Users\\jakub\\Desktop\\C#\\CsharpProjects\\FirstProject\\FirstProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jakub\\Desktop\\C#\\CsharpProjects\\FirstProject\\FirstProject.csproj",
+        "projectUniqueName": "c:\\Users\\jakub\\Desktop\\C#\\CsharpProjects\\FirstProject\\FirstProject.csproj",
         "projectName": "FirstProject",
-        "projectPath": "C:\\Users\\jakub\\Desktop\\C#\\CsharpProjects\\FirstProject\\FirstProject.csproj",
+        "projectPath": "c:\\Users\\jakub\\Desktop\\C#\\CsharpProjects\\FirstProject\\FirstProject.csproj",
         "packagesPath": "C:\\Users\\jakub\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jakub\\Desktop\\C#\\CsharpProjects\\FirstProject\\obj\\",
+        "outputPath": "c:\\Users\\jakub\\Desktop\\C#\\CsharpProjects\\FirstProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jakub\\AppData\\Roaming\\NuGet\\NuGet.Config"
