@@ -1,34 +1,10 @@
 ﻿// initialize variables - graded assignments 
 int currentAssignments = 5;
 
-int[] sophiaGrades = [90, 86, 87, 98, 100];
-int[] sophiaGrades = [92, 89, 81, 96, 90];
-int[] sophiaGrades = [90, 85, 87, 98, 68];
-int[] sophiaGrades = [90, 95, 87, 88, 96];
-
-int sophia1 = 90;
-int sophia2 = 86;
-int sophia3 = 87;
-int sophia4 = 98;
-int sophia5 = 100;
-
-int andrew1 = 92;
-int andrew2 = 89;
-int andrew3 = 81;
-int andrew4 = 96;
-int andrew5 = 90;
-
-int emma1 = 90;
-int emma2 = 85;
-int emma3 = 87;
-int emma4 = 98;
-int emma5 = 68;
-
-int logan1 = 90;
-int logan2 = 95;
-int logan3 = 87;
-int logan4 = 88;
-int logan5 = 96;
+int[] sophiaScores = new int[] { 90, 86, 87, 98, 100 };
+int[] andrewScores = new int[] { 92, 89, 81, 96, 90 };
+int[] emmaScores = new int[] { 90, 85, 87, 98, 68 };
+int[] loganScores = new int[] { 90, 95, 87, 88, 96 };
 
 int sophiaSum = 0;
 int andrewSum = 0;
@@ -40,10 +16,16 @@ decimal andrewScore;
 decimal emmaScore;
 decimal loganScore;
 
-sophiaSum = sophia1 + sophia2 + sophia3 + sophia4 + sophia5;
-andrewSum = andrew1 + andrew2 + andrew3 + andrew4 + andrew5;
-emmaSum = emma1 + emma2 + emma3 + emma4 + emma5;
-loganSum = logan1 + logan2 + logan3 + logan4 + logan5;
+// sophiaSum = sophia[0] + sophia[1] + sophia[3] + sophia[4] + sophia[5];
+// andrewSum = andrew[1] + andrew[2] + andrew[3] + andrew[4] + andrew[5];
+// emmaSum = emma[1] + emma2 + emma3 + emma4 + emma5;
+// loganSum = logan1 + logan2 + logan3 + logan4 + logan5;
+
+foreach (int score in sophiaScores)
+{
+    // add the exam score to the sum
+    sophiaSum += score;
+}
 
 sophiaScore = (decimal)sophiaSum / currentAssignments;
 andrewScore = (decimal)andrewSum / currentAssignments;
