@@ -31,8 +31,8 @@ int zahirahSum = zahirah1 + zahirah2 + zahirah3 + zahirah4 + zahirah5;
 int jeongSum = jeong1 + jeong2 + jeong3 + jeong4 + jeong5;
 
 
-
-Console.WriteLine("Sophia: " + (float)sophiaSum / currentAssignments + " A");
-Console.WriteLine("Nicolas: " + (float)nicolasSum / currentAssignments + " B");
-Console.WriteLine("zahirah: " + (float)zahirahSum / currentAssignments + " B");
-Console.WriteLine("Jeong: " + (float)jeongSum / currentAssignments + " A");
+Console.WriteLine("Student\t\tgrade\n");
+Console.WriteLine("Sophia:\t\t " + (float)sophiaSum / currentAssignments + "\tA");
+Console.WriteLine("Nicolas:\t " + (float)nicolasSum / currentAssignments + "\tB");
+Console.WriteLine("zahirah:\t " + (float)zahirahSum / currentAssignments + "\tB");
+Console.WriteLine("Jeong:\t\t " + (float)jeongSum / currentAssignments + "\tA");
